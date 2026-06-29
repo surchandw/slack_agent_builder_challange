@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<GITHUB_TOKEN_HERE>"
+      }
+    },
+    "internal_tools": {
+      "command": "python",
+      "args": ["custom_mcp_server.py"],
+      "env": {
+        "JIRA_API_TOKEN": "<JIRA_TOKEN_HERE>",
+        "JIRA_EMAIL": "<email@gmail.com>",
+        "JIRA_DOMAIN": "<domain_name>.atlassian.net",
+        "PAGERDUTY_API_KEY": "<PAGERDUTY_KEY_HERE>"
+      }
+    }
+  }
+}
