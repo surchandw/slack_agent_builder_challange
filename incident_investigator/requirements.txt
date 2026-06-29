@@ -1,0 +1,8 @@
+slack_bolt
+aiohttp
+fastapi
+uvicorn
+google-genai
+mcp
+requests
+pydantic
