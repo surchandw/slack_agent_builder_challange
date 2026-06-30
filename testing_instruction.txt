@@ -1,0 +1,14 @@
+Testing Instructions:
+====================
+
+How to Test Cross-Stack Incident Investigator Live:
+
+Accept the invitation to our Slack Developer Sandbox workspace [https://app.slack.com/client/E0BA7AX8L4R/C0BDPESQB8S]
+
+Navigate to the #incident-triage channel.
+
+TriageOps is securely connected to our live Jira, GitHub, and PagerDuty demo environments. To see it correlate a live outage, copy and paste this exact prompt into the channel:
+
+@incident_responder We just received a critical alert for PagerDuty incident ID 1. Please check Jira ticket CSB-1 and scan the recent GitHub commits to determine the root cause.
+
+Watch the real-time UI progress bar as it executes parallel tool calls, and review the final Markdown root-cause report!
